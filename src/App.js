@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="app">
+       <h1 className="h1"> Click the animal to make the heart bigger!</h1>
       <button onClick={handlclick}>Add animal </button>
       <div className="animal-list"> {renderanimals}</div>
     </div>
